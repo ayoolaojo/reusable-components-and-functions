@@ -1,4 +1,4 @@
-import { formatName } from "../utils/formmatters";
+import { calculateAge, formatName } from "../utils/formmatters";
 
 
 
@@ -20,6 +20,7 @@ const StudentCard:React.FC<Props> = ({student}) => {
     <div>
       <h2>Name: { formatName(student.fullName)} </h2>
       <p>DOb :{student.dob}</p>
+      <p>Age:{calculateAge(student.dob)}</p>
        <p>Score : {student.score}</p>
 
     </div>

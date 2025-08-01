@@ -5,13 +5,13 @@ function App() {
 
   const student1 = {
     fullName: 'ayoola ojo',
-    dob: '22-05-2007',
+    dob: '12-05-2007',
     score:92
   }
 
   const student2 = {
     fullName: 'goodness ayomide',
-    dob: '29-08-2008',
+    dob: '08-29-2008',
     score:94,
   }
 
@@ -25,6 +25,8 @@ function App() {
       <StudentCard  student = {student1}/>
       <StudentCard  student = {student2}/>
       <StudentCard  student = {student3}/>
+
+      
     </>
   )
 }
